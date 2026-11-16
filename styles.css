@@ -1,0 +1,19 @@
+ .attribution {
+     font-size: 0.6875rem;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+ aside {
+     background-color: #f8f9fa;
+     min-width: 280px;
+     min-height: 100vh;
+ }
+
+ main {
+     background-color: #ffffff;
+     flex-grow: 1;
+ }

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -16,121 +16,132 @@
 
   <title>Frontend Mentor | Hotel booking confirmation page</title>
 
-  <style>
-    .attribution {
-      font-size: 0.6875rem;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
-  <!-- Sidebar starts -->
 
-  Maison Soleil
+  <div class="d-flex flex-column flex-lg-row min-vh-100">
 
-  <!-- Guest navigation -->
-  Your stay
-  1
-  The house
-  Around town
-  Breakfast
-  Messages
+    <aside class="sidebar-container p-4">
+      <h2 class="font-serif">Maison Soleil</h2>
 
-  <!-- Local weather -->
-  Today in Cassis
-  27°
-  Sunny · light breeze
 
-  Est. 1987
-  Maison Soleil · 12 Rue des Oliviers · Cassis
-  © 2026 Maison Soleil
+      <nav>
+        <ul class="list-unstyled">
+          <li class="mb-2">Your stay <span class="badge bg-secondary">1</span></li>
+          <li class="mb-2">The house</li>
+          <li class="mb-2">Around town</li>
+          <li class="mb-2">Breakfast</li>
+          <li class="mb-2">Messages</li>
+        </ul>
+      </nav>
 
-  <!-- Sidebar ends -->
+      <div>
+        Today in Cassis
+        27°
+        Sunny · light breeze
+      </div>
 
-  <!-- Main content starts -->
+      <footer>
+        Est. 1987
+        Maison Soleil · 12 Rue des Oliviers · Cassis
+        © 2026 Maison Soleil
+      </footer>
 
-  Booking · Confirmed
-  Bienvenue, Lucia.
+    </aside>
 
-  Print receipt
-  Add to calendar
+    <main>
+      <div>Booking · Confirmed</div>
+      <h1 class="font-serif">Bienvenue, Lucia.</h1>
 
-  <!-- Booking cards start -->
+      <div class="d-flex justify-content-between">
+        <button type="button" class="btn btn-dark">Print receipt</button>
+        <a href="#add-to-calendar" class="btn btn-outline-secondary" role="button">Add to calendar</a>
+      </div>
 
-  <!-- Receipt card -->
-  Receipt
-  № MS-2026
-  0421-AH
 
-  Your stay
 
-  Check in
-  25 Apr
-  Saturday · 15:00
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card">
+            Receipt
+            № MS-2026
+            0421-AH
 
-  Check out
-  29 Apr
-  Wednesday · 11:00
+            Your stay
 
-  Room · La Garrigue · 4 nights
-  € 620.00
-  Breakfast · 2 guests
-  € 96.00
-  Tourist tax
-  € 14.40
+            Check in
+            25 Apr
+            Saturday · 15:00
 
-  Total paid
-  € 730.40
+            Check out
+            29 Apr
+            Wednesday · 11:00
 
-  Paid · Wise · GBP
-  <!-- Barcode image -->
+            Room · La Garrigue · 4 nights
+            € 620.00
+            Breakfast · 2 guests
+            € 96.00
+            Tourist tax
+            € 14.40
 
-  <!-- Note from host card -->
-  Welcome
-  A note from your host, Margaux.
-  We're so glad you're coming. The shutters will be open, the lemonade cold, and the cat - Poivre - pretending not to
-  notice you.
-  Room
-  La Garrigue
+            Total paid
+            € 730.40
 
-  <!-- Booking cards end -->
+            Paid · Wise · GBP
+            <!-- Barcode image -->
+          </div>
+        </div>
 
-  <!-- Guest info row starts -->
+        <div class="col-lg-6">
+          <div class="card">
 
-  <!-- Arrival -->
-  Arrival
-  01
-  Check-in from 15:00
-  Sat, 25 April
-  Ring the brass bell by the blue door. If we're at the market, the key is in the terracotta pot by the olive tree.
+            Welcome
+            A note from your host, Margaux.
+            We're so glad you're coming. The shutters will be open, the lemonade cold, and the cat - Poivre - pretending
+            not
+            to
+            notice you.
+            Room
+            La Garrigue
+          </div>
+        </div>
 
-  <!-- Wifi -->
-  Wifi
-  02
-  Le Soleil · Guest
-  Password below
-  Network
-  Le Soleil · Guest
-  Password
-  soleil-2026
-  Copy
+      </div>
 
-  <!-- Breakfast -->
-  Breakfast
-  03
-  Served 8 - 10:30
-  On the terrace
-  Fresh figs, Marseille honey, pain au levain, and espresso. Gluten-free option? Leave a note the night before.
 
-  <!-- Guest info row ends -->
+      <!-- Guest info row starts -->
 
-  <!-- Main content ends -->
+      <!-- Arrival -->
+      Arrival
+      01
+      Check-in from 15:00
+      Sat, 25 April
+      Ring the brass bell by the blue door. If we're at the market, the key is in the terracotta pot by the olive tree.
+
+      <!-- Wifi -->
+      Wifi
+      02
+      Le Soleil · Guest
+      Password below
+      Network
+      Le Soleil · Guest
+      Password
+      soleil-2026
+      Copy
+
+      <!-- Breakfast -->
+      Breakfast
+      03
+      Served 8 - 10:30
+      On the terrace
+      Fresh figs, Marseille honey, pain au levain, and espresso. Gluten-free option? Leave a note the night before.
+
+      <!-- Guest info row ends -->
+    </main>
+  </div>
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
