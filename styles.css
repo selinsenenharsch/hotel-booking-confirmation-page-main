@@ -33,3 +33,12 @@ main {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+.font-monospace {
+    font-family: 'DM Mono', monospace !important;
+}
+
+.welcome-card {
+    background-color: #a6431e;
+    border-radius: 1rem;
+}
