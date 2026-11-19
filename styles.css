@@ -9,20 +9,6 @@ body {
 }
 
 
-aside {
-    background-color: #f8f9fa;
-    min-width: 280px;
-    min-height: 100vh;
-}
-
-
-main {
-    background-color: #ffffff;
-    flex-grow: 1;
-    padding: 2.5rem;
-}
-
-
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
@@ -35,13 +21,6 @@ main {
 
 .font-monospace {
     font-family: 'DM Mono', monospace !important;
-}
-
-.welcome-card {
-    background-color: #a6431e;
-    border-radius: 1rem;
-}
-
 }
 
 .sidebar-logo {
