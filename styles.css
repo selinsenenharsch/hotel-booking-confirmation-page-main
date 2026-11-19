@@ -24,8 +24,17 @@ body {
 }
 
 .sidebar-logo {
-    width: 56px;
-    height: 56px;
+    width: 76px;
+    height: 76px;
+}
+
+@media (min-width: 992px) {
+    aside.sidebar-container {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        overflow-y: auto;
+    }
 }
 
 aside {
@@ -42,7 +51,7 @@ aside {
 main {
     background-color: #faf7f2;
     flex-grow: 1;
-    padding: 2.5rem;
+    padding: 1.5rem 2rem;
 }
 
 .main-content {
@@ -54,6 +63,7 @@ main {
     background-color: #ffffff;
     border: 1px solid #ece5da;
     border-radius: 1rem;
+    padding: 1rem;
 }
 
 .weather-card {
