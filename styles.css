@@ -35,10 +35,19 @@ aside {
     border-right: 1px solid #e7dfd3;
 }
 
+.accent-rust {
+    color: #a8431c;
+}
+
 main {
     background-color: #faf7f2;
     flex-grow: 1;
     padding: 2.5rem;
+}
+
+.main-content {
+    max-width: 1140px;
+    width: 100%;
 }
 
 .card {
@@ -57,4 +66,26 @@ main {
     background-color: #a8431c;
     border: none;
     border-radius: 1rem;
+}
+
+.icon-box {
+    width: 32px;
+    height: 32px;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.icon-box-arrival {
+    background-color: #a8431c;
+}
+
+.icon-box-wifi {
+    background-color: #3e56a8;
+}
+
+.icon-box-breakfast {
+    background-color: #b8436b;
 }

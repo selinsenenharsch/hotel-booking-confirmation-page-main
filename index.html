@@ -75,149 +75,156 @@
     </aside>
 
     <main>
-      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4 pb-2 gap-3">
-        <div>
-          <div class="text-uppercase small text-muted fw-bold mb-1">Booking · Confirmed</div>
-          <h1 class="font-serif mb-0">Bienvenue, Lucia.</h1>
+      <div class="main-content mx-auto">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4 pb-2 gap-3">
+          <div>
+            <div class="text-uppercase small text-muted fw-bold mb-1">Booking · Confirmed</div>
+            <h1 class="font-serif mb-0">Bienvenue, <span class="accent-rust fst-italic">Lucia.</span></h1>
+          </div>
+
+          <div class="d-flex flex-wrap gap-2">
+            <button type="button" class="btn btn-dark">Print receipt</button>
+            <a href="#add-to-calendar" class="btn btn-outline-secondary" role="button">Add to calendar</a>
+          </div>
         </div>
 
-        <div class="d-flex flex-wrap gap-2">
-          <button type="button" class="btn btn-dark">Print receipt</button>
-          <a href="#add-to-calendar" class="btn btn-outline-secondary" role="button">Add to calendar</a>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="card p-4 shadow-sm border-0 h-100">
+              <div class="d-flex justify-content-between align-items-start mb-3">
+                <span class="text-uppercase text-muted small fw-bold">Receipt</span>
+                <span class="text-muted small text-end font-monospace">№ MS-2026<br>0421-AH</span>
+              </div>
+
+              <h5 class="font-serif fw-bold mb-4">Your stay</h5>
+
+              <div class="row mb-4">
+                <div class="col-6">
+                  <small class="text-uppercase text-muted d-block">Check in</small>
+                  <div class="font-serif fw-bold fs-4">25 Apr</div>
+                  <small class="text-muted">Saturday · 15:00</small>
+                </div>
+                <div class="col-6">
+                  <small class="text-uppercase text-muted d-block">Check out</small>
+                  <div class="font-serif fw-bold fs-4">29 Apr</div>
+                  <small class="text-muted">Wednesday · 11:00</small>
+                </div>
+              </div>
+
+              <hr class="text-muted">
+
+              <div class="d-flex justify-content-between mb-2 small">
+                <span>Room · La Garrigue · 4 nights</span>
+                <span class="font-monospace fw-bold">€ 620.00</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2 small">
+                <span>Breakfast · 2 guests</span>
+                <span class="font-monospace fw-bold">€ 96.00</span>
+              </div>
+              <div class="d-flex justify-content-between mb-3 small">
+                <span>Tourist tax</span>
+                <span class="font-monospace fw-bold">€ 14.40</span>
+              </div>
+
+              <hr class="text-muted">
+
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                <span class="text-uppercase text-muted small fw-bold">Total paid</span>
+                <span class="font-serif fw-bold fs-4">€ 730.40</span>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center text-muted small mt-auto">
+                <span class="font-monospace">PAID · WISE · GBP</span>
+                <img src="./assets/images/icon-barcode.svg" alt="Booking barcode" height="28">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6">
+            <div class="card welcome-card p-4 shadow-sm border-0 h-100 text-white">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-uppercase small fw-bold opacity-75">Welcome Card</span>
+                <img src="./assets/images/icon-sun.svg" alt="" width="28" height="28">
+              </div>
+
+              <h3 class="font-serif mb-3">A note from your host,<br><em class="fs-2">Margaux.</em></h3>
+              <p class="mb-4 opacity-90">We're so glad you're coming. The shutters will be open, the lemonade cold, and
+                the cat - Poivre - pretending not to notice you.</p>
+
+              <div class="mt-auto">
+                <small class="text-uppercase opacity-75 d-block">Room</small>
+                <span class="font-serif fw-bold fs-5">La Garrigue</span>
+              </div>
+            </div>
+          </div>
         </div>
+
+
+        <div class="row mt-4">
+          <div class="col-lg-4 mb-3">
+            <div class="card h-100 p-3">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <div class="d-flex align-items-center">
+                  <span class="icon-box icon-box-arrival me-2">
+                    <img src="./assets/images/icon-key.svg" alt="" width="18" height="18" class="me-2">
+                  </span>
+                  <span class="text-uppercase fw-bold text-muted small">Arrival</span>
+                </div>
+                <span class="fw-bold">01</span>
+              </div>
+              <h5 class="fw-bold">Check-in from 15:00</h5>
+              <p class="text-muted small mb-2">Sat, 25 April</p>
+              <p class="card-text">Ring the brass bell by the blue door. If we're at the market, the key is in the
+                terracotta pot by the olive tree.</p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 mb-3">
+            <div class="card h-100 p-3">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <div class="d-flex align-items-center">
+                  <span class="icon-box icon-box-wifi me-2">
+                    <img src="./assets/images/icon-wifi.svg" alt="" width="18" height="18" class="me-2">
+                  </span>
+                  <span class="text-uppercase fw-bold text-muted small">Wifi</span>
+                </div>
+                <span class="fw-bold">02</span>
+              </div>
+              <h5 class="fw-bold">Le Soleil · Guest</h5>
+              <p class="text-muted small mb-2">Password below</p>
+              <div class="bg-light p-2 rounded mb-2 small">
+                <div><strong>Network:</strong> Le Soleil · Guest</div>
+                <div><strong>Password:</strong> soleil-2026</div>
+              </div>
+              <button class="btn btn-sm btn-outline-dark mt-auto">Copy</button>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 mb-3">
+            <div class="card h-100 p-3">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <div class="d-flex align-items-center">
+                  <span class="icon-box icon-box-breakfast me-2">
+                    <img src="./assets/images/icon-breakfast.svg" alt="" width="18" height="18" class="me-2">
+                  </span>
+                  <span class="text-uppercase fw-bold text-muted small">Breakfast</span>
+                </div>
+                <span class="fw-bold">03</span>
+              </div>
+              <h5 class="fw-bold">Served 8 - 10:30</h5>
+              <p class="text-muted small mb-2">On the terrace</p>
+              <p class="card-text">Fresh figs, Marseille honey, pain au levain, and espresso. Gluten-free option? Leave
+                a
+                note the night before.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
-
-
-      <div class="row g-4">
-        <div class="col-lg-6">
-          <div class="card p-4 shadow-sm border-0 h-100">
-            <div class="d-flex justify-content-between align-items-start mb-3">
-              <span class="text-uppercase text-muted small fw-bold">Receipt</span>
-              <span class="text-muted small text-end font-monospace">№ MS-2026<br>0421-AH</span>
-            </div>
-
-            <h5 class="font-serif fw-bold mb-4">Your stay</h5>
-
-            <div class="row mb-4">
-              <div class="col-6">
-                <small class="text-uppercase text-muted d-block">Check in</small>
-                <div class="font-serif fw-bold fs-4">25 Apr</div>
-                <small class="text-muted">Saturday · 15:00</small>
-              </div>
-              <div class="col-6">
-                <small class="text-uppercase text-muted d-block">Check out</small>
-                <div class="font-serif fw-bold fs-4">29 Apr</div>
-                <small class="text-muted">Wednesday · 11:00</small>
-              </div>
-            </div>
-
-            <hr class="text-muted">
-
-            <div class="d-flex justify-content-between mb-2 small">
-              <span>Room · La Garrigue · 4 nights</span>
-              <span class="font-monospace fw-bold">€ 620.00</span>
-            </div>
-            <div class="d-flex justify-content-between mb-2 small">
-              <span>Breakfast · 2 guests</span>
-              <span class="font-monospace fw-bold">€ 96.00</span>
-            </div>
-            <div class="d-flex justify-content-between mb-3 small">
-              <span>Tourist tax</span>
-              <span class="font-monospace fw-bold">€ 14.40</span>
-            </div>
-
-            <hr class="text-muted">
-
-            <div class="d-flex justify-content-between align-items-center mb-4">
-              <span class="text-uppercase text-muted small fw-bold">Total paid</span>
-              <span class="font-serif fw-bold fs-4">€ 730.40</span>
-            </div>
-
-            <div class="d-flex justify-content-between align-items-center text-muted small mt-auto">
-              <span class="font-monospace">PAID · WISE · GBP</span>
-              <img src="./assets/images/icon-barcode.svg" alt="Booking barcode" height="28">
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-6">
-          <div class="card welcome-card p-4 shadow-sm border-0 h-100 text-white">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-              <span class="text-uppercase small fw-bold opacity-75">Welcome Card</span>
-              <img src="./assets/images/icon-sun.svg" alt="" width="28" height="28">
-            </div>
-
-            <h3 class="font-serif mb-3">A note from your host,<br><em class="fs-2">Margaux.</em></h3>
-            <p class="mb-4 opacity-90">We're so glad you're coming. The shutters will be open, the lemonade cold, and
-              the cat - Poivre - pretending not to notice you.</p>
-
-            <div class="mt-auto">
-              <small class="text-uppercase opacity-75 d-block">Room</small>
-              <span class="font-serif fw-bold fs-5">La Garrigue</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row mt-4">
-        <div class="col-lg-4 mb-3">
-          <div class="card h-100 p-3">
-            <div class="d-flex justify-content-between align-items-center mb-2">
-              <div class="d-flex align-items-center">
-                <img src="./assets/images/icon-key.svg" alt="" width="18" height="18" class="me-2">
-                <span class="text-uppercase fw-bold text-muted small">Arrival</span>
-              </div>
-              <span class="fw-bold">01</span>
-            </div>
-            <h5 class="fw-bold">Check-in from 15:00</h5>
-            <p class="text-muted small mb-2">Sat, 25 April</p>
-            <p class="card-text">Ring the brass bell by the blue door. If we're at the market, the key is in the
-              terracotta pot by the olive tree.</p>
-          </div>
-        </div>
-
-
-        <div class="col-lg-4 mb-3">
-          <div class="card h-100 p-3">
-            <div class="d-flex justify-content-between align-items-center mb-2">
-              <div class="d-flex align-items-center">
-                <img src="./assets/images/icon-wifi.svg" alt="" width="18" height="18" class="me-2">
-                <span class="text-uppercase fw-bold text-muted small">Wifi</span>
-              </div>
-              <span class="fw-bold">02</span>
-            </div>
-            <h5 class="fw-bold">Le Soleil · Guest</h5>
-            <p class="text-muted small mb-2">Password below</p>
-            <div class="bg-light p-2 rounded mb-2 small">
-              <div><strong>Network:</strong> Le Soleil · Guest</div>
-              <div><strong>Password:</strong> soleil-2026</div>
-            </div>
-            <button class="btn btn-sm btn-outline-dark mt-auto">Copy</button>
-          </div>
-        </div>
-
-
-        <div class="col-lg-4 mb-3">
-          <div class="card h-100 p-3">
-            <div class="d-flex justify-content-between align-items-center mb-2">
-              <div class="d-flex align-items-center">
-                <img src="./assets/images/icon-breakfast.svg" alt="" width="18" height="18" class="me-2">
-                <span class="text-uppercase fw-bold text-muted small">Breakfast</span>
-              </div>
-              <span class="fw-bold">03</span>
-            </div>
-            <h5 class="fw-bold">Served 8 - 10:30</h5>
-            <p class="text-muted small mb-2">On the terrace</p>
-            <p class="card-text">Fresh figs, Marseille honey, pain au levain, and espresso. Gluten-free option? Leave
-              a
-              note the night before.</p>
-          </div>
-        </div>
-      </div>
-
-
     </main>
   </div>
 
