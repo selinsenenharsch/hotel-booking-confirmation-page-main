@@ -42,3 +42,8 @@ main {
     background-color: #a6431e;
     border-radius: 1rem;
 }
+
+.weather-card {
+    background-color: #f6dc8b;
+    color: #2b2b2b;
+}
