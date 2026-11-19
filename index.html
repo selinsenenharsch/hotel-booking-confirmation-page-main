@@ -24,46 +24,54 @@
 
   <div class="d-flex flex-column flex-lg-row min-vh-100">
 
-    <aside class="sidebar-container p-4">
-      <div class="d-flex align-items-center mb-4">
-        <img src="./assets/images/logo.svg" alt="Maison Soleil logo" width="28" height="28" class="me-2">
-        <h2 class="font-serif mb-0 fs-4">Maison Soleil</h2>
+    <aside class="sidebar-container d-flex flex-column p-4">
+      <div class="mb-4">
+        <img src="./assets/images/logo.svg" alt="Maison Soleil logo" class="sidebar-logo">
       </div>
 
       <nav>
         <ul class="list-unstyled">
           <li class="mb-3 d-flex align-items-center justify-content-between">
-            <span><img src="./assets/images/icon-bed.svg" alt="" width="18" height="18" class="me-2"> Your stay</span>
-            <span class="badge rounded-pill bg-secondary">1</span>
+            <span class="text-nowrap"><img src="./assets/images/icon-bed.svg" alt="" width="22" height="22"
+                class="me-2"> Your stay</span>
+            <span class="badge rounded-pill bg-secondary text-nowrap">1</span>
           </li>
           <li class="mb-3 d-flex align-items-center">
-            <img src="./assets/images/icon-house.svg" alt="" width="18" height="18" class="me-2"> The house
+            <span class="text-nowrap"><img src="./assets/images/icon-house.svg" alt="" width="22" height="22"
+                class="me-2"> The house</span>
           </li>
           <li class="mb-3 d-flex align-items-center">
-            <img src="./assets/images/icon-pin.svg" alt="" width="18" height="18" class="me-2"> Around town
+            <span class="text-nowrap"><img src="./assets/images/icon-pin.svg" alt="" width="22" height="22"
+                class="me-2"> Around town</span>
           </li>
           <li class="mb-3 d-flex align-items-center">
-            <img src="./assets/images/icon-breakfast-outline.svg" alt="" width="18" height="18" class="me-2"> Breakfast
+            <span class="text-nowrap"><img src="./assets/images/icon-breakfast-outline.svg" alt="" width="22"
+                height="22" class="me-2"> Breakfast</span>
           </li>
           <li class="mb-3 d-flex align-items-center">
-            <img src="./assets/images/icon-mail.svg" alt="" width="18" height="18" class="me-2"> Messages
+            <span class="text-nowrap"><img src="./assets/images/icon-mail.svg" alt="" width="22" height="22"
+                class="me-2"> Messages</span>
           </li>
         </ul>
       </nav>
-      <div class="weather-card p-3 rounded-3 my-4">
-        <div class="d-flex align-items-center justify-content-between mb-1">
-          <span class="text-uppercase small fw-bold">Today in Cassis</span>
-          <img src="./assets/images/icon-weather.svg" alt="" width="24" height="24">
-        </div>
-        <div class="font-serif fs-2 fw-bold lh-1 my-2">27°</div>
-        <div class="small">Sunny · light breeze</div>
-      </div>
-      <footer>
-        Est. 1987
-        Maison Soleil · 12 Rue des Oliviers · Cassis
-        © 2026 Maison Soleil
-      </footer>
 
+
+      <div class="mt-auto">
+        <div class="weather-card p-3 rounded-3 mb-4">
+          <div class="d-flex align-items-center justify-content-between mb-1">
+            <span class="text-uppercase small fw-bold text-nowrap">Today in Cassis</span>
+            <img src="./assets/images/icon-weather.svg" alt="" width="24" height="24">
+          </div>
+          <div class="font-serif fs-2 fw-bold lh-1 my-2">27°</div>
+          <div class="small">Sunny · light breeze</div>
+        </div>
+
+        <footer class="small text-muted pt-3 border-top">
+          <div class="text-uppercase mb-2">Est. 1987</div>
+          <div class="text-uppercase mb-2">Maison Soleil · 12 Rue des Oliviers · Cassis</div>
+          <div class="text-uppercase">© 2026 Maison Soleil</div>
+        </footer>
+      </div>
     </aside>
 
     <main>
